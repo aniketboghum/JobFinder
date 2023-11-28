@@ -17,6 +17,46 @@ public class Post
     @Field("techs")
     private String[] _technologies;
 
+    public String get_profile()
+    {
+        return _profile;
+    }
+
+    public void set_profile(String _profile)
+    {
+        this._profile = _profile;
+    }
+
+    public String get_description()
+    {
+        return _description;
+    }
+
+    public void set_description(String _description)
+    {
+        this._description = _description;
+    }
+
+    public int get_experience()
+    {
+        return _experience;
+    }
+
+    public void set_experience(int _experience)
+    {
+        this._experience = _experience;
+    }
+
+    public String[] get_technologies()
+    {
+        return _technologies;
+    }
+
+    public void set_technologies(String[] _technologies)
+    {
+        this._technologies = _technologies;
+    }
+
     public Post()
     {
 
